@@ -116,7 +116,7 @@ Follow the instructions below to configure the client library:
 
 ## <a name="step4"></a>Step 4: Upload images to detect faces
 
-The most straightforward way to detect faces is by calling the [Face - Detect](https://westus.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236) API by uploading the image file directly.
+The most straightforward way to detect faces is by calling the [Face - Detect](https://dev.projectoxford.ai/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236) API by uploading the image file directly.
 When using the client library, this can be done by using an asynchronous method DetectAsync of FaceServiceClient.
 Each returned face contains a rectangle to indicate its location, combined with a series of optional face attributes.
 In this example, we only need to retrieve the face location. Here we need to insert an asynchronous function into the MainWindow class for face detection: 
@@ -193,7 +193,7 @@ Run this application and browse for an image containing a face. Please wait for 
 
 ## <a name="summary"></a> Summary
 
-In this tutorial, you have learned the basic process for using the Face API and created an application to display face marks in images. For more information on API details, please refer to the How-To and [API Reference](https://westus.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236). 
+In this tutorial, you have learned the basic process for using the Face API and created an application to display face marks in images. For more information on API details, please refer to the How-To and [API Reference](https://dev.projectoxford.ai/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236). 
 
 ## <a name="related"></a> Related Topics
 

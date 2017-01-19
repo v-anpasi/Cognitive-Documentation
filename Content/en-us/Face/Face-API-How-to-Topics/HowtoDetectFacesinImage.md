@@ -40,7 +40,7 @@ In order to execute these features, you will need to prepare an image with at le
 
 ## <a name="step1"></a> Step 1: Authorize the API call
 
-Every call to the Face API requires a subscription key. This key needs to be either passed through a query string parameter, or specified in the request header. To pass the subscription key through query string, please refer to the request URL for the [Face - Detect](https://westus.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236) as an example:
+Every call to the Face API requires a subscription key. This key needs to be either passed through a query string parameter, or specified in the request header. To pass the subscription key through query string, please refer to the request URL for the [Face - Detect](https://dev.projectoxford.ai/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236) as an example:
 
 ```
 https://westus.cognitive.microsoft.com/face/v1.0/detect[?returnFaceId][&returnFaceLandmarks][&returnFaceAttributes]
@@ -52,7 +52,7 @@ When using a client library, the subscription key is passed in through the const
 ```CSharp
 faceServiceClient = new FaceServiceClient("Your subscription key");
 ```
-See [subscription and key management](https://www.microsoft.com/cognitive-services/en-US/subscriptions).
+See [subscription and key management](https://www.projectoxford.ai/Subscription).
 
 ## <a name="step2"></a> Step 2: Upload an image to the service and execute face detection
 
@@ -90,7 +90,7 @@ The FaceRectangle property that is returned with detected faces is essentially l
 
 ## <a name="step3"></a> Step 3: Understanding and using face landmarks
 
-Face landmarks are a series of specifically detailed points on a face; typically points of face components like the pupils, canthus or nose. Face landmarks are optional attributes that can be analyzed during face detection. You can either pass 'true' as a Boolean value to the returnFaceLandmarks query parameter when calling the [Face - Detect](https://westus.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236), or use the returnFaceLandmarks optional parameter for the FaceServiceClient class DetectAsync method in order to include the face landmarks in the detection results.
+Face landmarks are a series of specifically detailed points on a face; typically points of face components like the pupils, canthus or nose. Face landmarks are optional attributes that can be analyzed during face detection. You can either pass 'true' as a Boolean value to the returnFaceLandmarks query parameter when calling the [Face - Detect](https://dev.projectoxford.ai/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236), or use the returnFaceLandmarks optional parameter for the FaceServiceClient class DetectAsync method in order to include the face landmarks in the detection results.
 
 By default, there are 27 predefined landmark points. The following figure shows how all 27 points are defined:
 
@@ -182,9 +182,9 @@ foreach (var face in faces)
 ``` 
 ## <a name="summary"></a> Summary
 
-In this guide you have learned the functionalities of [Face - Detect](https://westus.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236) API, how it can detect faces for local uploaded images or image URLs on the web; how it can detect faces by returning rectangular face frames; and how it can also analyze face landmarks, 3D head poses and other face attributes as well.
+In this guide you have learned the functionalities of [Face - Detect](https://dev.projectoxford.ai/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236) API, how it can detect faces for local uploaded images or image URLs on the web; how it can detect faces by returning rectangular face frames; and how it can also analyze face landmarks, 3D head poses and other face attributes as well.
 
-For more information about API details, please refer to the API reference guide for [Face - Detect](https://westus.dev.cognitive.microsoft.com/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236).
+For more information about API details, please refer to the API reference guide for [Face - Detect](https://dev.projectoxford.ai/docs/services/563879b61984550e40cbbe8d/operations/563879b61984550f30395236).
 
 ## <a name="related"></a> Related Topics
 
