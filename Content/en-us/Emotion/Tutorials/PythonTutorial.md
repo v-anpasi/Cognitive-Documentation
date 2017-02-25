@@ -7,13 +7,17 @@ Weight: 45
 
 #Emotion API using Python Tutorial
 
-To make it easy to get started with the Emotion API, the Jupyter notebook linked below shows you how to use the API in Python and how to visualize your results using some popular libraries. 
+This tutorial shows you how to use the Emotion API in Python and how to visualize your results using some popular libraries. Use Jupyter to run the tutorial. To learn how to get started with interactive Jupyter notebooks, refer to: [Jupyter Documementation](http://jupyter.readthedocs.io/en/latest/index.html). 
 
-[Emotion API Python Tutorial Notebook](https://github.com/Microsoft/Cognitive-Emotion-Python/blob/master/Jupyter%20Notebook/Emotion%20Analysis%20Example.ipynb)
+###Opening the Tutorial Notebook in Jupyter
 
-###Using the Jupyter Notebook
+1. Navigate to the [tutorial notebook in GitHub](https://github.com/Microsoft/Cognitive-Emotion-Python).
+2. Click on the green button to clone or download the tutorial.
+3. Open a command prompt and go to the folder _Cognitive-Emotion-Python-master\Cognitive-Emotion-Python-master\Jupyter_ Notebook.
+4. Run the command **jupyter notebook** from the command prompt. This will start Jupyter.
+5. In the Jupyter window, click on _Emotion Analysis Example.ipynb_ to open the tutorial notebook
 
-To use the notebook interactively, you will need to clone it and run it in Jupyter. To learn how to get started with interactive Jupyter notebooks, refer to: [Jupyter Documementation](http://jupyter.readthedocs.io/en/latest/index.html). 
+###Running the Tutorial
 
 To run the tutorial, you will need a subscription key for the Emotion API. Visit the [Subscription page](https://www.microsoft.com/cognitive-services/en-us/sign-up) to sign up. On the “Sign in” page, use your Microsoft account to sign in and you will be able to subscribe and get free keys. After completing the sign-up process, paste your key into the variables section of the notebook (reproduced below). Either the primary or the secondary key works.
 
