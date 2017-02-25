@@ -7,7 +7,7 @@ Weight: 45
 
 #Emotion API using Python Tutorial
 
-This tutorial shows you how to use the Emotion API in Python and how to visualize your results using some popular libraries. Use Jupyter to run the tutorial. To learn how to get started with interactive Jupyter notebooks, refer to: [Jupyter Documementation](http://jupyter.readthedocs.io/en/latest/index.html). 
+This tutorial shows you how to use the Emotion API in Python and how to visualize your results using some popular libraries. Use Jupyter to run the tutorial. To learn how to get started with interactive Jupyter notebooks, refer to: [Jupyter Documentation](http://jupyter.readthedocs.io/en/latest/index.html). 
 
 ###Opening the Tutorial Notebook in Jupyter
 
