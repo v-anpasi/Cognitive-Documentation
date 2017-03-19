@@ -179,7 +179,6 @@ A successful response will be returned in JSON. Following is an example of a suc
                 "mustache": 0.8,
                 "beard": 0.1,
                 "sideburns": 0.02
-                }
             },
             "glasses": "sunglasses",
             "headPose": {
